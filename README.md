@@ -1,8 +1,10 @@
-# Prepare for App Store
+# Prepare for App Store · a Claude Code skill
+
+> A [skill](https://docs.claude.com/en/docs/claude-code/skills) for [Claude Code](https://claude.com/claude-code) that turns your Xcode project into a ready-to-submit App Store listing.
 
 **Your app is finished. Now App Store Connect wants a name, a subtitle, 100 characters of keywords, a 4,000-character description, privacy answers, an age rating, screenshots in exact pixel sizes, review notes, and a screenshot for every in-app purchase.**
 
-This [Claude Code](https://claude.com/claude-code) skill does that last mile for you. Open your Xcode project, say *"prepare this app for the App Store"*, and you get one folder with every field written, measured and ready to paste.
+This skill does that last mile for you. Install it once, open your Xcode project in Claude Code, say *"prepare this app for the App Store"*, and you get one folder with every field written, measured and ready to paste.
 
 ---
 
@@ -39,7 +41,7 @@ Each locale your app supports gets its own keywords and screenshot headlines, wr
 git clone https://github.com/musatenekeci/prepare-for-appstore.git ~/.claude/skills/prepare-for-appstore
 ```
 
-That's it. Claude Code picks up skills from `~/.claude/skills/` automatically.
+That's it. Claude Code loads every skill in `~/.claude/skills/` automatically, so this one is now available in all your projects.
 
 To install it for a single project instead, clone it into that project's `.claude/skills/` folder.
 
